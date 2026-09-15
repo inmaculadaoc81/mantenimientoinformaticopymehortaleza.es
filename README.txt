@@ -409,3 +409,46 @@ tecnológico, no colores llamativos ni disruptivos"):
   paleta.
 - Sin cambios en el verde de WhatsApp, el rojo de YouTube ni la banda
   de cookies (colores de terceros / estándar de familia).
+
+────────────────────────────────────────────────────────────
+ADAPTACIÓN A HORTALEZATECH | MANTENIMIENTO INFORMÁTICO HORTALEZA
+(repositorio clonado a partir de RetiroTech; ya traía aplicados todos
+los criterios vigentes de la subfamilia — H1 de 9 palabras, "Agendar
+cita", h2 de la tarjeta = título de la web, kicker "Asesoramiento
+gratuito", H1 clamp(44-62px) — solo hubo que rebrandear)
+────────────────────────────────────────────────────────────
+
+MARCA Y TEXTOS:
+- "RetiroTech" → "HortalezaTech" en cabecera, pie de página, JSON-LD
+  (name) y mensaje prellenado de WhatsApp ("¡Hola HortalezaTech").
+- Title: "HortalezaTech | Mantenimiento Informático Hortaleza" (texto
+  exacto indicado por el cliente). Meta description, og:title y
+  og:description reescritos mencionando Hortaleza, Madrid.
+- H1 propio de 9 palabras exactas, distinto de los de los repos
+  hermanos: "Mantenemos tu empresa funcionando, sin sustos ni
+  sorpresas técnicas."
+- Fila "Zona": "Retiro, Madrid" → "Hortaleza, Madrid".
+- FAQ "¿Trabajáis solo en Retiro?" → "¿Trabajáis solo en Hortaleza?",
+  con la respuesta actualizada igual.
+- Tarjeta de información de contacto: el h2 actualizado al título
+  exacto de esta web: "HortalezaTech | Mantenimiento Informático
+  Hortaleza" (se corrigió aparte, ya que el rebranding automático solo
+  cambiaba el nombre de marca y dejaba "en Retiro" sin tocar).
+- JSON-LD: description y areaServed actualizados a Hortaleza, Madrid.
+
+DOMINIO Y ENLACES:
+- canonical, og:url y JSON-LD "url" → https://mantenimientoinformaticopymehortaleza.es/
+  (el cliente indicó el dominio con http://, se ha usado https:// como
+  en el resto de la familia, que es lo que usan las webs ya
+  desplegadas en Vercel).
+- sitemap.xml y robots.txt actualizados al nuevo dominio.
+- Enlace de Google Maps actualizado en las 4 ubicaciones del sitio a
+  https://maps.app.goo.gl/rU8dRrQjcfgrwwqX7, proporcionado por el
+  cliente.
+
+TELÉFONO Y WHATSAPP: sin cambios, mismo número compartido por toda la
+familia.
+
+COLOR: sin cambios en esta pasada (el cliente no pidió modificarlo
+para esta marca); se mantiene la paleta índigo/violeta heredada de
+RetiroTech.
