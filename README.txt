@@ -452,3 +452,13 @@ familia.
 COLOR: sin cambios en esta pasada (el cliente no pidió modificarlo
 para esta marca); se mantiene la paleta índigo/violeta heredada de
 RetiroTech.
+
+BLOG (/blog):
+- Los artículos NO viven en este repositorio: los genera y publica el agente
+  SEO de Kelatos (Agentes V2 → organización «HortalezaTech», clave hortalezatech)
+  y se leen en vivo de la API pública de Kelatos, sin token:
+  https://db.affirmatechnology.com/kelatos-api/publico/blog?org=hortalezatech
+- api/blog.js + lib/blog.js generan /blog y /blog/<slug> en el servidor.
+- api/sitemap.js genera /sitemap.xml (se eliminó el sitemap.xml estático).
+- Estilos en assets/blog.css. Enlace «Blog» en el menú (escritorio y móvil) y en el pie.
+- vercel.json redirige a la home las URLs antiguas; el blog queda fuera.
